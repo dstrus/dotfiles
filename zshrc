@@ -14,7 +14,7 @@ export ZSH_THEME="miloshadzic"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(rails ruby git osx zsh-syntax-highlighting)
+plugins=(rails ruby git osx zsh-syntax-highlighting chruby vi-mode)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -87,3 +87,12 @@ export PATH="/usr/local/bin:$PATH"
 # chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
+
+# NVM
+source ~/.nvm/nvm.sh
+
+# For GNU utils from homebrew
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+export PATH="/usr/local/opt/gnu-sed/libexec/gnubin:$PATH"
+export MANPATH="/usr/local/opt/gnu-sed/libexec/gnuman:$MANPATH"
