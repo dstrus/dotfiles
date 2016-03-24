@@ -1,6 +1,6 @@
 [user]
-  name = Miles Z. Sterrett
-  email = miles@mileszs.com
+  name = Dave Strus
+  email = dave@getfretless.com
 
 [apply]
   whitespace = strip
@@ -30,8 +30,8 @@
   add-unmerged  = "!f() { git ls-files --unmerged | cut -f2 | sort -u ; }; git add `f`"
 
 [github]
-	user = mileszs
+	user = dstrus
 [merge]
   tool = vimdiff
 [gui]
-	recentrepo = /Users/mileszs/code/healthpro/rms
+	recentrepo = /Users/dstrus/code/dulead

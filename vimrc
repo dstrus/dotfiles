@@ -212,4 +212,4 @@ nmap <silent> ss :sp<CR>
 nmap <Leader>x <Plug>ToggleAutoCloseMappings
 
 " github
-source /Users/mileszs/.vimgithubrc
+source /Users/dstrus/.vimgithubrc
